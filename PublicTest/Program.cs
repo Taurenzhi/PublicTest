@@ -7,7 +7,7 @@ Console.WriteLine();
 // foreach (DictionaryEntry de in Environment.GetEnvironmentVariables())
 //     Console.WriteLine("  {0} = {1}", de.Key, de.Value);
 
-if (Environment.GetEnvironmentVariable("AlexTestSecretText") == "yjy19951229..")
+if (Environment.GetEnvironmentVariable("AlexTestSecretText") == "AlexTestSecretText")
 {
     Console.WriteLine("AlexTestSecretText is correct");
 }
