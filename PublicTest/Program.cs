@@ -3,6 +3,15 @@
 using System.Collections;
 
 Console.WriteLine();
-Console.WriteLine("GetEnvironmentVariables: ");
-foreach (DictionaryEntry de in Environment.GetEnvironmentVariables())
-    Console.WriteLine("  {0} = {1}", de.Key, de.Value);
+// Console.WriteLine("GetEnvironmentVariables: ");
+// foreach (DictionaryEntry de in Environment.GetEnvironmentVariables())
+//     Console.WriteLine("  {0} = {1}", de.Key, de.Value);
+
+if (Environment.GetEnvironmentVariable("AlexTestSecretText") == "yjy19951229..")
+{
+    Console.WriteLine("AlexTestSecretText is correct");
+}
+else
+{
+    Console.WriteLine("AlexTestSecretText is incorrect");
+}
